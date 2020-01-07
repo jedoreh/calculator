@@ -1,0 +1,52 @@
+body {
+    background: #F3F3F3;
+}
+
+.app {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 100vh;
+    align-items: center;
+}
+
+.calc {
+    width: 380px;
+}
+
+.display {
+        background: #C4C4C4;
+        padding: 0px 15px;
+        height: 60px;
+        line-height: 60px;
+        text-align: right;
+        color: #313131;
+        border-radius: 16px 16px 0px 0px;
+    }
+
+.actions {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        background-color: #171717;
+        border-radius: 0px 0px 16px 16px;
+    }
+
+.blank {
+    opacity: 0;
+}
+
+.actions>button {
+    width: 120px;
+    height: 35px;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.action, .operator {
+    background: #FFCE00;
+}
+
